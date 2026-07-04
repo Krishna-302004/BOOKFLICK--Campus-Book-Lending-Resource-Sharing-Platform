@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Points</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .container {
+        width: 80%;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #e2e2e2;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>User Rating Points</h1>
+  <table>
+    <thead>
+    <tr>
+      <th>User ID</th>
+      <th>R (Average Rating)</th>
+      <th>N (R/5)</th>
+      <th>GP (N^2 * 10)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- User 1 -->
+    <tr>
+      <td>1</td>
+      <td>4.2</td>
+      <td>0.84</td>
+      <td>7.056</td>
+    </tr>
+    <!-- User 2 -->
+    <tr>
+      <td>2</td>
+      <td>3.7</td>
+      <td>0.74</td>
+      <td>5.476</td>
+    </tr>
+    <!-- User 3 -->
+    <tr>
+      <td>3</td>
+      <td>4.9</td>
+      <td>0.98</td>
+      <td>9.604</td>
+    </tr>
+    <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

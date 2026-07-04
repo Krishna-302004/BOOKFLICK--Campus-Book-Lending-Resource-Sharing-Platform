@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Book</title>
+</head>
+<body>
+<h2>Add a New Book</h2>
+<form action="/addBook" method="post">
+    <div>
+        <label>Title:</label>
+        <input type="text" name="title" required>
+    </div>
+    <div>
+        <label>Author:</label>
+        <input type="text" name="author" required>
+    </div>
+    <div>
+        <label>Year:</label>
+        <input type="number" name="year" required>
+    </div>
+    <button type="submit">Add Book</button>
+</form>
+<p><a href="http://localhost:9092/">Logout</a></p>
+</body>
+</html>
