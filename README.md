@@ -1,32 +1,44 @@
-BOOKFLICK – Campus Book Lending & Resource Sharing Platform
+# BOOKFLICK – Campus Book Lending & Resource Sharing Platform
 
-Overview
+## Overview
 
-BOOKFLICK is a web-based campus book lending and academic resource sharing platform developed as a Database Management System (DBMS) project. The application streamlines the exchange of textbooks, notes, question papers, and other learning resources among students through a centralized, secure, and user-friendly system. It promotes collaborative learning, minimizes educational costs, and encourages active participation using a reward-based activity point mechanism.  ￼
+BOOKFLICK is a web-based campus book lending and academic resource sharing platform developed as part of a Database Management System (DBMS) project. The application provides a centralized system for students to lend, borrow, and share textbooks, notes, question papers, and other academic resources. It aims to promote collaborative learning, improve resource accessibility, and reduce the cost of educational materials through a secure and user-friendly platform.
 
-Key Features
-	•	Secure student authentication and user management
-	•	Book lending and borrowing workflow
-	•	Upload and download academic resources
-	•	Advanced search for books and study materials
-	•	Rating and review system
-	•	Activity point calculation based on user engagement
-	•	Notifications for borrowing and return requests
-	•	Administrative dashboard for monitoring and management  ￼
+## Features
 
-Technology Stack
-	•	Frontend: HTML, CSS
-	•	Backend: Java
-	•	Database: MySQL
-	•	Application Server: Apache Tomcat  ￼
+- Secure user authentication and profile management
+- Book lending and borrowing system
+- Upload and download academic resources
+- Search books by title, author, or subject
+- Book rating and review functionality
+- Activity point reward system based on user participation
+- Notification management for borrowing and returns
+- Administrative dashboard for system monitoring
 
-Objective
+## Technology Stack
 
-The primary objective of BOOKFLICK is to provide an efficient and centralized platform for sharing academic resources within a college community, enabling students to access learning materials conveniently while fostering collaboration, sustainability, and knowledge sharing.  ￼
+- **Backend:** Java
+- **Frontend:** HTML, CSS
+- **Database:** MySQL
+- **Application Server:** Apache Tomcat
 
-Future Enhancements
-	•	AI-powered recommendation system
-	•	Personalized resource suggestions
-	•	Enhanced search and filtering
-	•	Analytics dashboard
-	•	Mobile application support  ￼
+## Objectives
+
+- Provide a centralized platform for sharing academic resources.
+- Simplify the process of lending and borrowing books within the campus.
+- Encourage collaborative learning through a reward-based participation system.
+- Improve accessibility to educational materials.
+- Promote sustainable resource sharing among students.
+
+## Future Enhancements
+
+- AI-powered book recommendation system
+- Personalized study material recommendations
+- Advanced search and filtering
+- Real-time messaging between users
+- Mobile application support
+- Analytics and reporting dashboard
+
+## License
+
+This project is developed for educational and academic purposes as part of a Database Management System (DBMS) course.
